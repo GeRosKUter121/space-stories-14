@@ -8,7 +8,7 @@ namespace Content.Server.Test;
 
 public sealed class TestSoundSystem : EntitySystem
 {
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private SharedPopupSystem _popup = default!;
     public override void Initialize()
     {
         base.Initialize();
