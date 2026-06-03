@@ -3,6 +3,7 @@ using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
 using Content.Shared.Test;
 using Content.Shared.Trigger.Components.Triggers;
+using DependencyAttribute = Robust.Shared.IoC.DependencyAttribute;
 
 namespace Content.Server.Test;
 
