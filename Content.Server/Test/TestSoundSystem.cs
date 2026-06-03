@@ -19,6 +19,6 @@ public sealed class TestSoundSystem : EntitySystem
     }
     private void OnUseInHand(Entity<SoundTestComponent> entity, ref UseInHandEvent args)
     {
-        _popup.PopupEntity("Hello, WORLD!!!", entity.Owner);
+        _popup.PopupEntity(Loc.GetString(entity.Comp.Text), entity.Owner);
     }
 }
